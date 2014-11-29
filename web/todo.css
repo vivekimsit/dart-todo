@@ -1,0 +1,68 @@
+/* Todo style goes here 
+   TODO: Try stylus instead
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font:14px normal Arial, sans-serif;
+  color:#626771;
+  background-color:#fff;
+}
+
+.todo {
+  margin: auto;
+  padding: 50px;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.todo-list {
+  list-style: none;
+  display: inline-block;
+  width: 420px;
+  text-align: left;
+}
+
+.todo-list-item.done {
+  text-decoration: line-through;  
+}
+
+.todo-list-item:hover {
+  background-color:#d8f2f1;
+}
+
+.todo-list-item {
+  display: block;
+  padding: 15px 20px;
+  background-color: #F8F8F8;
+  color: #7B8585;
+  margin-bottom: 3px;
+}
+
+input[type=text] {
+  text-align: center;
+  font: inherit;
+  border: 6px solid #a3d8d6;
+  padding: 13px 12px;
+  font-size: 15px;
+  box-shadow: 0 1px 1px #DDD;
+  width: 384px;
+  outline: none;
+  display: block;
+  color: #7B8585;
+}
+
+.todo-buttons {
+  list-style: none;
+  float: right;
+  display: inline-flex;
+}
+
+.todo-buttons li {
+  padding-right: 5px;
+  cursor: pointer;
+}
